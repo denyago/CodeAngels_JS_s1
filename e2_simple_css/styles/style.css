@@ -86,3 +86,11 @@
     font-size: 0.75em;
     display: inline-block;
   }
+
+  #footer-nav li:after {
+    content: " |";
+  }
+
+  #footer-nav li:last-child:after {
+    content: "";
+  }
